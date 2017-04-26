@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NoContentView.h"
 
 @interface BaseTableView : UITableView
 
@@ -18,7 +19,7 @@
 
  @param emptyViewType 无数据占位图的类型
  */
-- (void)showEmptyViewWithType:(NSInteger)emptyViewType;
+- (void)showEmptyViewWithType:(NoContentType)emptyViewType;
 
 /* 移除无数据占位图 */
 - (void)removeEmptyView;

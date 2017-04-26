@@ -80,6 +80,7 @@
 - (void)rightButtonClicked{
     // 展示无数据占位图
     [self.tableView showEmptyViewWithType:NoContentTypeOrder];
+    
     // 无数据占位图点击的回调
     self.tableView.noContentViewTapedBlock = ^{
         [SVProgressHUD showSuccessWithStatus:@"订单 木有"];

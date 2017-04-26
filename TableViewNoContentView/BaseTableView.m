@@ -7,7 +7,6 @@
 //
 
 #import "BaseTableView.h"
-#import "NoContentView.h"
 
 @interface BaseTableView (){
     NoContentView *_noContentView;
@@ -22,7 +21,7 @@
  
  @param emptyViewType 无数据占位图的类型
  */
-- (void)showEmptyViewWithType:(NSInteger)emptyViewType{
+- (void)showEmptyViewWithType:(NoContentType)emptyViewType{
     
     // 如果已经展示无数据占位图，先移除
     if (_noContentView) {
