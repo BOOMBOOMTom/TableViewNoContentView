@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseTableView.h"
 
 @interface AppDelegate ()
 
